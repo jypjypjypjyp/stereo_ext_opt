@@ -18,3 +18,5 @@ This package is used to optimize the **Rotation** of the stereo camera's extrins
 The green lines show the stereo matchs; 
 The red lines show 2-D points re-projected from triangulated landmarks. 
 Green lines and red lines almost coincide.(The blue lines represents the epipolar line) 
+
+![](images/Screenshot-20210603153332-1512x962.png)
