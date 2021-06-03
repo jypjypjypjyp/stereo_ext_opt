@@ -1,6 +1,6 @@
 # stereo_ext_opt
 
-This package is used to optimize the **Rotation** of the stereo camera's extrinsic. It is rewritten from (lvio-fusion)[https://github.com/jypjypjypjyp/lvio_fusion]. Usually, we use RANSAC and the 8-point method for calibration, but those methods are not stable in practical application. To fix this problem, I implemented a non-linear optimization method based on the distance between the matching point and the epipolar line as the cost. This method does not require a calibration board and works in a random environment, also the whole process will be completed quickly.
+This package is used to optimize the **Rotation** of the stereo camera's extrinsic. It is rewritten from [lvio-fusion](https://github.com/jypjypjypjyp/lvio_fusion). Usually, we use RANSAC and the 8-point method for calibration, but those methods are not stable in practical application. To fix this problem, I implemented a non-linear optimization method based on the distance between the matching point and the epipolar line as the cost. This method does not require a calibration board and works in a random environment, also the whole process will be completed quickly.
 
 # How to use
 
