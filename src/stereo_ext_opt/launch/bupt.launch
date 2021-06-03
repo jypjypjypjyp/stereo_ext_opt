@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="config_file" default="$(find stereo_ext_opt)/config/bupt.yaml" />
+
+  <node name="stereo_ext_opt" pkg="stereo_ext_opt" type="stereo_ext_opt" output="screen">
+    <param name="config_file" value="$(arg config_file)" />
+  </node>
+
+</launch>
